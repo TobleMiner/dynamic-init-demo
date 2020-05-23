@@ -1,5 +1,4 @@
-FILE(GLOB sources *.c)
-idf_component_register(SRCS ${sources} component1.c component2.c component3.c
+idf_component_register(SRCS main.c init.c component1.c component2.c component3.c component-with-args.c
                        LDFRAGMENTS "initcalls.lf")
 
 # --whole-archive is required since some of the objct files inside the lib
