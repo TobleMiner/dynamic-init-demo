@@ -1,0 +1,12 @@
+[sections:initcalls]
+entries:
+    .initcalls
+
+[scheme:initcalls]
+entries:
+    initcalls -> flash_rodata
+
+[mapping:initcalls]
+archive: libmain.a
+entries:
+    * (initcalls) emit(initcalls) keep
