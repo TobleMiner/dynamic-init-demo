@@ -9,4 +9,4 @@ entries:
 [mapping:initcalls]
 archive: libmain.a
 entries:
-    * (initcalls) emit(initcalls) keep
+    * (initcalls) emit(initcalls) align(8) keep
